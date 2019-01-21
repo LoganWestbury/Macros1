@@ -1,0 +1,58 @@
+{
+  "Name": "Called_user_customer_note",
+  "CreationDate": "2018-12-20",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeEval",
+      "Target": "(new Date().getHours()+\" : \" + new Date().getMinutes())\t",
+      "Value": "startTime"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "//*[@id=\"actionPanel\"]/div[2]/ul/li[3]",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=mainForm-Details",
+      "Value": "Called branch @ ${StartTime} but unable to reach ${employeeName}. I have left a message for them to call back."
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=mainForm-SaveButton",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "//*[@id=\"actionPanel\"]/div[2]/ul/li[5]",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "500",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=mainForm-Text",
+      "Value": "Called branch @ ${StartTime} but unable to reach ${employeeName}. I have left a message for them to call back."
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=mainForm-SaveButton",
+      "Value": ""
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1539876942249.58ae74"
+}

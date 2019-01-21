@@ -1,0 +1,73 @@
+{
+  "Name": "5DayVRI",
+  "CreationDate": "2018-12-4",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response2",
+      "Value": "registrationPlate"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/184"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10907",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10899",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "5 Day VRI Issue"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, This deal has a VRI on it however it is not showing on the deal in the commissions page. The product consultant is on the 5 day structure. Thanks"
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1542720428023.23b075"
+}

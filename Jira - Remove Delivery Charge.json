@@ -1,0 +1,73 @@
+{
+  "Name": "5DayVRI",
+  "CreationDate": "2018-12-20",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response2",
+      "Value": "registrationPlate"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/205"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10907",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10899",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "Remove delivery charge"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, This deal has a delivery charge on it however it is no longer needing one. Can you remove this? Thanks"
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1542817619076.2e6d38"
+}

@@ -1,0 +1,58 @@
+{
+  "Name": "Appraisal_Jira",
+  "CreationDate": "2018-11-28",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/207"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10907",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "Unable to login due to appraisal"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, Unable to log into account as it says the appraisal needs extended. Unable to do it here. Can you extend it? Thanks"
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1541418077583.7e84b9"
+}

@@ -1,0 +1,116 @@
+{
+  "Name": "DC Proofs",
+  "CreationDate": "2019-1-21",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/205"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10907",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10899",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "Proofs Issue"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, This deal is currently sitting at delivery pending and when the delivery centre try to add the proofs the window pops up then goes away again. They have been done already at the branch who have a green tick for the proofs, can you bypass it?"
+    },
+    {
+      "Command": "open",
+      "Target": "http://s000111pl/2ndlineappsupport/Lists/ESIG%20Exemptions%202018/NewForm.aspx?Source=http%3A%2F%2Fs000111pl%2F2ndlineappsupport%2FLists%2FESIG%2520Exemptions%25202018%2FAllItems%2Easpx&RootFolder=",
+      "Value": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=-2",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=mainForm-_Response2",
+      "Value": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=-1",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=txtOrderID",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=txtOrderID",
+      "Value": "6924777"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "link=Search",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=lblBranch",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=lblBranch",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=lblBranch",
+      "Value": ""
+    }
+  ]
+}

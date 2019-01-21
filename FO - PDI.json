@@ -1,0 +1,47 @@
+{
+  "CreationDate": "2018-11-15",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "http://intranet.arnoldclark.co.uk/FleetOffice/Login.aspx?Module=Default"
+    },
+    {
+      "Command": "type",
+      "Target": "id=tbPassword",
+      "Value": "!o3!e#qikG:89D"
+    },
+    {
+      "Command": "click",
+      "Target": "id=BtnLogIn",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "http://intranet.arnoldclark.co.uk/FleetOffice/Admin/Utility/AdminExternalPDI.aspx",
+      "Value": "http://intranet.arnoldclark.co.uk/FleetOffice/Admin/Utility/AdminExternalPDI.aspx"
+    },
+    {
+      "Command": "type",
+      "Target": "id=txtOrderID",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "click",
+      "Target": "id=BtnSubmit",
+      "Value": ""
+    }
+  ],
+  "status": "ERROR",
+  "id": "1539871674894.70b59d"
+}

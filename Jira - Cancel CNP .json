@@ -1,0 +1,73 @@
+{
+  "Name": "Cancel_CNP",
+  "CreationDate": "2018-12-5",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response2",
+      "Value": "registrationPlate"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/189"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10900",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10899",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "Cancel CNP on deal"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, This deal is currently sitting at CNP in progress however the product consultant wants to amend the deal for the customer but they have deleted the CNP email. Can you return this deal to the in progress stage? Cheers"
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1542715981945.8cd96e"
+}

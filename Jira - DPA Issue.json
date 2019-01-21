@@ -1,0 +1,78 @@
+{
+  "Name": "DPA",
+  "CreationDate": "2018-12-19",
+  "Commands": [
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response2",
+      "Value": "registrationPlate"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://arnoldclark.atlassian.net/servicedesk/customer/portal/11/create/208"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10907",
+      "Value": "${employeeName}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10921",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10909",
+      "Value": "${employeeID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10899",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield_10885",
+      "Value": "${registrationPlate}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=summary",
+      "Value": "Unable to deliver deal due to DPA Issue"
+    },
+    {
+      "Command": "type",
+      "Target": "id=description",
+      "Value": "Hi, This deal is currently sitting at delivery pending and when the product consultant clicks the delivery flag it comes up saying \"Collect and save the customer's contact preferences (DPA)\". However there is no option for the user to do this. Are you able to bypass the DPA for this deal? Cheers"
+    }
+  ],
+  "status": "SUCCESS",
+  "id": "1539857430100.bf7f9"
+}
