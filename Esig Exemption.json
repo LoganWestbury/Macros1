@@ -1,0 +1,131 @@
+{
+  "Name": "Esig Exemption",
+  "CreationDate": "2019-1-21",
+  "Commands": [
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Name",
+      "Value": "employeeID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-RaiseUserTitleDisplay",
+      "Value": "employeeName"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response1",
+      "Value": "franchiseManager"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-_Response2",
+      "Value": "orderID"
+    },
+    {
+      "Command": "storeValue",
+      "Target": "id=mainForm-Description",
+      "Value": "esigReason"
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=contentTitleText",
+      "Value": "landeskReference"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "http://sales.arnoldclark.co.uk/salesmanoffice2/itadmin/amendordercfudetails.aspx"
+    },
+    {
+      "Command": "type",
+      "Target": "id=txtOrderID",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "click",
+      "Target": "link=Search",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "5000",
+      "Value": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "id=lblBranch",
+      "Value": "branchName1"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "http://s000111pl/2ndlineappsupport/Lists/ESIG%20Exemptions%202018/NewForm.aspx?Source=http%3A%2F%2Fs000111pl%2F2ndlineappsupport%2FLists%2FESIG%2520Exemptions%25202018%2FAllItems%2Easpx&RootFolder="
+    },
+    {
+      "Command": "type",
+      "Target": "id=Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
+      "Value": "${franchiseManager}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=LANDESK_x0020_CALL_ebcfcae8-ef33-4aab-829a-fb512f9bd4ee_$TextField",
+      "Value": "${landeskReference}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=ORDER_x0020_ID_8ff03665-4304-4dbf-8d3a-83d15d747264_$NumberField",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=BRANCH_e948d9fc-0652-4b56-a377-1620e372d930_$TextField",
+      "Value": "${branchName1}"
+    },
+    {
+      "Command": "type",
+      "Target": "id=REASON_x0020_FOR_x0020_EXEMPTION_21182e88-8e34-4e34-85c8-3ea4193511f6_$TextField",
+      "Value": "${esigReason}"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "http://sales.arnoldclark.co.uk/salesmanoffice2/itadmin/exemptorder.aspx"
+    },
+    {
+      "Command": "click",
+      "Target": "id=cbExemptionTypeList",
+      "Value": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=cbExemptionTypeList",
+      "Value": "label=E-Signature Exemption"
+    },
+    {
+      "Command": "click",
+      "Target": "id=cbExemptionTypeList",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=txtOrderID",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=txtOrderID",
+      "Value": "${orderID}"
+    },
+    {
+      "Command": "click",
+      "Target": "id=txtExemptionReason",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=txtExemptionReason",
+      "Value": "${landeskReference}"
+    }
+  ]
+}
